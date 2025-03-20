@@ -52,7 +52,7 @@ class DistributeurTickets
             clients.Add($"{prenom} {nom} ({numeroCompte}) - Ticket: {ticket}");
 
             int enAttente = numeros[type] - 1;
-            Console.WriteLine($"\n🔹 Votre numéro est {ticket}. Il y a {enAttente} personnes avant vous. 🔹\n");
+            Console.WriteLine($"\n Votre numéro est {ticket}. Il y a {enAttente} personnes avant vous. \n");
 
             SauvegarderNumeros();
 
